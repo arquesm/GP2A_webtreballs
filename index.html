@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>treballs RIA MagdaArques</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <style type="text/css">
+        /*reset*/
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        img {
+            width: 100%;
+            height: auto;
+        }
+
+        html {
+            font-size: 20px;
+        }
+
+
+
+        header {
+            padding: 0 1em;
+            font-family: 'Playfair Display', serif;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: space-around;
+            background-color: #FFCF9C;
+            background-size: cover;
+            background-position: -2em;
+            background-image: url('img/pattern.png');
+            height: 100vh;
+        }
+
+        h1 {
+            font-size: 16vw;
+            line-height: 1em;
+            font-weight: 700;
+        }
+
+        h2 {
+            font-size: 9vw;
+        }
+
+        h3 {
+            font-size: 8vw;
+        }
+
+        nav {
+            position: sticky;
+            top: 0;
+            justify-content: space-around;
+            align-items: center;
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            padding: 0 16px;
+            height: 149px;
+            font-family: 'Roboto', sans-serif;
+            font-weight: bold;
+            text-transform: uppercase;
+            background: #FFCF9C;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #CA054D;
+        }
+
+        main {
+            display: flex;
+            flex-direction: column;
+            padding: 11em 1em 0 1em;
+            font-family: 'Roboto', sans-serif;
+            background: #A4D4B4;
+        }
+
+        section {
+            width: 100%;
+            margin: 0 0 1.6em 0;
+            display: flex;
+            flex-direction: column;
+            height: 348px;
+            background: white;
+        }
+
+        section figure {
+            padding: 0.8em 0.8em 0 0.8em;
+        }
+
+        section figure img {
+            width: 100%;
+            height: 280px;
+            object-position: bottom;
+            object-fit: cover;
+        }
+
+        section figcaption {
+            display: flex;
+            flex-grow: 1;
+            justify-content: center;
+            align-items: center;
+        }
+
+        footer {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            padding-bottom: 3em;
+            width: 100%;
+            height: 414px;
+            font-family: 'Roboto', sans-serif;
+            /*            background: #FFCF9C;*/
+        }
+
+        footer a {
+            color: #3B1C32;
+            text-decoration: none;
+            text-transform: uppercase;
+        }
+
+        .xxss {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .email {
+            text-align: center;
+        }
+
+
+
+
+        /* Extra small devices (phones, 600px and down) */
+        @media only screen and (max-width: 600px) {
+            body {
+                background: orange;
+            }
+        }
+
+        /* Small devices (portrait tablets and large phones, 600px and up) */
+        @media only screen and (min-width: 600px) {
+            body {
+                background: green;
+            }
+
+            header {
+                background-image: url('img/pattern_tablet.png');
+                padding: 0 11em;
+            }
+
+            h1 {
+                font-size: 10vw;
+                line-height: 1em;
+                font-weight: 700;
+            }
+
+            h2 {
+                font-size: 6vw;
+            }
+
+            h3 {
+                font-size: 5vw;
+            }
+
+            main {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+            section {
+                width: 400px;
+                margin: 0 0 1.6em 0;
+                display: flex;
+                flex-direction: column;
+                height: 348px;
+                background: white;
+            }
+            .grid-container{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                align-items: center;
+                flex-wrap: wrap;
+            }
+        }
+
+        /* Medium devices (landscape tablets, 768px and up) */
+        @media only screen and (min-width: 768px) {
+            body {
+                background: blue;
+            }
+        }
+
+        /* Large devices (laptops/desktops, 992px and up) */
+        @media only screen and (min-width: 992px) {
+            body {
+                background: orange;
+            }
+        }
+
+        /* Extra large devices (large laptops and desktops, 1200px and up) */
+        @media only screen and (min-width: 1200px) {
+            body {
+                background: pink;
+            }
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <header class="header">
+        <h1>Recursos<br> Interactius<br> Aplicats</h1>
+        <h2>2gp - EASDAlcoi</h2>
+        <h3>Magda Arques</h3>
+    </header>
+    <nav class="menu">
+        <a href="#">projectes</a>
+        <a href="#">contacte</a>
+    </nav>
+    <main class="main">
+        <div class="grid-container">
+            <section>
+                <figure>
+                    <img src="img/p0.png" alt="">
+                </figure>
+                <figcaption>
+                    <h4>p0_llocweb</h4>
+                </figcaption>
+            </section>
+            <section>
+                <figure>
+                    <img src="img/p0.png" alt="">
+                </figure>
+                <figcaption>
+                    <h4>p0_llocweb</h4>
+                </figcaption>
+            </section>
+            <section>
+                <figure>
+                    <img src="img/p0.png" alt="">
+                </figure>
+                <figcaption>
+                    <h4>p0_llocweb</h4>
+                </figcaption>
+            </section>
+            <section>
+                <figure>
+                    <img src="img/p0.png" alt="">
+                </figure>
+                <figcaption>
+                    <h4>p0_llocweb</h4>
+                </figcaption>
+            </section>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="xxss">
+            <a href="#">insta</a>
+            <a href="#">twitter</a>
+            <a href="#">face</a>
+        </div>
+        <div class="email">
+            <a href="mailto:arquesm@easdalcoi.es">:-)
+            </a>
+        </div>
+    </footer>
+    </div>
+</body>
+
+</html>
